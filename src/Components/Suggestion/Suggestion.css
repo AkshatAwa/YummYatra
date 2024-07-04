@@ -1,0 +1,137 @@
+.suggestionbox{
+  display: flex;
+  flex-direction: column;
+  background-color: #d4d4d4;
+  width: 100vw;
+  height: auto;
+}
+.suggestion{
+    display: flex;
+    flex-direction: column;
+    top: 3rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.suggestionbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.suggestionbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.btns,.btns2,.btns3{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 12px;
+    transition: 0.3s;
+    border: 1px solid #000;
+}
+.btns:hover{
+    background-color: #22c55e;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+.btns2:hover{
+    background-color: #22c55e;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+.btns3:hover{
+    background-color: #22c55e;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+.sh{
+    font-family: Montserrat,sans-serif;
+    font-weight: 300;
+}
+.carousel-containers {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+  }
+  .carousel-images{
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
+  }
+  .carousel-slides {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  
+  .carousel-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 300;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .carousel-contents h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-contents p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-contacts {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 62.3vw;
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    gap: 8px;
+  }
+  
+  .carousel-contacts h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-contacts p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-contacts i {
+    margin-right: 10px;
+  }
+  .seplinebox{
+    background-color: #d4d4d4;
+  }
+  .sepline{
+    display: flex;
+    position: relative;
+    top: 6vh;
+    background-color: #000;
+    width: 100vw;
+    height: 2px;
+    justify-content: center;
+}

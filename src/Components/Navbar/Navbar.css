@@ -1,0 +1,129 @@
+.navbar{
+    background:#fff;
+    display: flex;
+    height: 4rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.logo{
+    object-fit: cover;
+    height: 4rem;
+    width: 3rem;
+}
+.desktopMenu{
+    display: flex;
+    margin-left: 10rem;
+}
+.Vloggerss1,.Vloggerss2,.Vloggerss3,.Vloggerss4{
+    position: relative;
+    margin: 1rem;
+    cursor: pointer;
+}
+.Vloggerss1::after,.Vloggerss2::after,.Vloggerss3::after,.Vloggerss4::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 1.5rem;
+    height: 1.5px;
+    width: 0%;
+    background-color: #22c55e;
+    transition: all ease-in-out 0.1s;
+}
+.Vloggerss1.active::after,.Vloggerss2.active::after,.Vloggerss3.active::after,.Vloggerss4.active::after{
+    width: 100%;
+    
+}
+.Vloggerss1:active,.Vloggerss2:active,.Vloggerss3:active,.Vloggerss4:active{
+    color: #22c55e;
+}
+.contactBtn{
+    background-color: #fff;
+    border-radius: 17px;
+    width: 8rem;
+    height: 2rem;
+    font-size: 15px;
+    margin: auto 3rem;
+}
+.contactBtn:hover{
+    cursor: pointer;
+}
+.menulogo{
+    display: none;
+    object-fit: cover;
+    height: 1.4rem;
+}
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 7rem;
+    background: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+.listVloggerss{
+    padding: 0.5rem 5rem;
+    margin: 0.25rem;
+    background-color: #fff; 
+}
+.listVloggerss:hover{
+    cursor: pointer;
+    color: rgb(126, 175, 248);
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .searchBar input {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .searchBar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .searchBar button i {
+    font-size: 20px;
+    color: #333;
+  }
+@media screen and (max-width: 780px){
+    .menulogo{
+        display: flex;
+    } 
+    .desktopMenu{
+        display: none;
+    }
+    .contactBtn{
+        display: none;
+    }
+}
+@media screen and (max-width: 200px){
+    .menulogo{
+        display: flex;
+    }
+    .navbar{
+        width: 135vw;
+    }
+}

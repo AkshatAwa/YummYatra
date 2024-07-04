@@ -1,0 +1,59 @@
+.detailscontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,60,159,1) 50%, rgba(21,168,197,1) 93%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,60,159,1) 50%, rgba(21,168,197,1) 93%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,60,159,1) 50%, rgba(21,168,197,1) 93%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#15a8c5",GradientType=1);
+    width: 100vw;
+    height: 110vh;
+}
+.detailbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f1f0f0;
+    width: 90vw;
+    height: 100vh;
+    border-radius: 15px;
+    border: 2px solid #000;
+}
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .vbtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .vbtn:hover {
+    background-color: #0056b3;
+  }
